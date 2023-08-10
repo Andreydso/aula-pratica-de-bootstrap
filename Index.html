@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog dos Games</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Meus Jogos Mobile Favoritos</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- collapse -->
+    <div class="container mt-3">
+        <button type="button" class="btn btn-dark text-white" data-bs-toggle="collapse"
+            data-bs-target="#demo">Minecraft</button>
+        <div id="demo" class="collapse">
+            Minecraft é um jogo eletrônico sandbox de sobrevivência criado pelo desenvolvedor sueco Markus "Notch"
+            Persson e posteriormente desenvolvido e publicado pela Mojang Studios, cuja propriedade intelectual foi
+            obtida pela Microsoft em 2014. Lançado inicialmente em maio de 2009 como um projeto em desenvolvimento, seu
+            lançamento completo ocorreu em novembro de 2011 para Microsoft Windows, macOS, Linux e alguns dispositivos
+            móveis, sendo posteriormente relançado para uma ampla variedade de plataformas. É o jogo eletrônico mais
+            vendido de todos os tempos, vendendo mais de 238 milhões de cópias em todas as plataformas até abril de
+            2021, com mais de 140 milhões de jogadores ativos mensalmente.
+        </div>
+    </div>
+    <div class="container mt-3">
+        <button type="button" class="btn btn-dark text-white" data-bs-toggle="collapse"
+            data-bs-target="#demo1">Roblox</button>
+        <div id="demo1" class="collapse">
+            Roblox (anteriormente estilizado como ROBLOX) é uma plataforma de jogos MMOSG e Sandbox baseados normalmente
+            em mundo aberto, multiplataforma e simulação que permite criar do zero seu próprio mundo virtual chamado de
+            'experiência' ou 'place' onde os milhares de jogadores da plataforma podem interagir sobre.[7]
+
+            A Roblox possui mais de 500.000 criadores de experiências e 700 milhões de usuários ativos mensais, que já
+            registraram mais de 300 milhões de horas de uso. O grupo de desenvolvimento da experiência, a Roblox
+            Corporation, emprega mais de 1000 pessoas no mundo inteiro.
+        </div>
+    </div>
+    <div class="container mt-3">
+        <button type="button" class="btn btn-dark text-white" data-bs-toggle="collapse" data-bs-target="#demo2">COD
+            Mobile</button>
+        <div id="demo2" class="collapse">
+            Call of Duty: Mobile é um jogo eletrônico free-to-play de tiro em primeira pessoa desenvolvido pela Tencent
+            Games e publicado pela Activision para Android e iOS. Foi lançado em 1 de outubro de 2019. O jogo recebeu
+            mais de 20 milhões de downloads dentro de um dia de seu lançamento, ganhando mais de US $ 2 milhões em
+            receita.
+        </div>
+    </div>
+
+    <!-- tabela -->
+    <div class="container mt-4">
+        <h2>Players ativos</h2>
+        <table class="table table-dark table-striped">
+            <thead>
+                <tr>
+                    <th>Jogo</th>
+                    <th>Players Ativos</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Minecraft</td>
+                    <td>140 milhões</td>
+                </tr>
+                <tr>
+                    <td>Roblox</td>
+                    <td>70,2 milhões</td>
+                </tr>
+                <tr>
+                    <td>COD Mobile</td>
+                    <td>35,7 milhões</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="alert alert-success" role="alert">
+            <B>Cada jogo pode ter um aumento muito grande de acordo com o tempo!</B>
+        </div>
+    </div>
+
+    <!-- lista -->
+    <div class="container mt-4">
+        <h1>Link dos Jogo</h1>
+        <ul class="list-group">
+            <a href="https://www.minecraft.net/pt-br" target="_blank"
+                class="list-group-item list-group-item-dark text-dark">Minecraft</a>
+            <a href="https://www.roblox.com/" target="_blank"
+                class="list-group-item list-group-item-dark text-dark">Roblox</a>
+            <a href="https://www.callofduty.com/br/pt/mobile" target="_blank"
+                class="list-group-item list-group-item-dark text-dark">Call of Duty Mobile</a>
+        </ul>
+    </div>
+
+    <!-- carousel -->
+    <div class="container mt-4">
+        <div id="carouselExampleSlidesOnly" class="carousel slide " data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active rounded">
+                    <img src="https://assets.folhavitoria.com.br/images/78399640-7866-11ec-825f-f1c7f79c171d--minified.jpg"
+                        class="d-block w-100" alt="Imagem 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://files.tecnoblog.net/wp-content/uploads/2021/08/roblox-700x394.jpg"
+                        class="d-block w-100" alt="Imagem 3">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://dotesports.com/br/wp-content/uploads/sites/3/2021/02/11123637/GarenaWorld.png?w=1185"
+                        class="d-block w-100" alt="Imagem 3">
+                </div>
+            </div>
+        </div>
+        <button class="btn btn-primary mt-2" type="button" data-toggle="collapse" data-target="#collapseExample"
+            aria-expanded="false" aria-controls="collapseExample">
+            Saiba Mais
+        </button>
+        <div class="collapse mt-2" id="collapseExample">
+            <a href="https://www.minecraft.net/pt-br" target="_blank"></a>
+            <a href="https://www.roblox.com/" target="_blank"></a>
+            <a href="https://www.callofduty.com/br/pt/mobile" target="_blank"></a>
+        </div>
+    </div>
+<!-- footer -->
+    <footer class="bg-dark text-white text-center p-3 mt-4">
+        © 2022 Blog dos Games. Todos os direitos reservados.
+      </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
